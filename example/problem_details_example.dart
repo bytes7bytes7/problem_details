@@ -5,7 +5,7 @@ import 'package:problem_details/problem_details.dart';
 void main() {
   predefinedWithNoParams();
   predefined();
-  noPredefined();
+  notPredefined();
   raw();
   extensions();
   toJson();
@@ -34,7 +34,7 @@ void predefined() {
   print(problemDetails.title);
 }
 
-void noPredefined() {
+void notPredefined() {
   /// If ProblemDetails does not have predefined `type` and `title` for
   /// specified status, then `type` is set to 'about:blank'
   final problemDetails = ProblemDetails(status: 1);
