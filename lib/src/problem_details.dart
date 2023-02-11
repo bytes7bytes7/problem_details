@@ -90,6 +90,9 @@ class ProblemDetails {
     );
   }
 
+  @override
+  String toString() => 'ProblemDetails ${toJson()}';
+
   Map<String, Object?> toJson() {
     final result = <String, Object?>{
       _statusKey: status,

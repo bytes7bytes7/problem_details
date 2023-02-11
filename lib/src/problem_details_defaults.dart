@@ -10,7 +10,7 @@ class _DefaultsValue {
   final String title;
 }
 
-/// Predefined info for Problem Details response.
+/// Predefined info for Problem Details.
 const _problemDetailsDefaults = <int, _DefaultsValue>{
   400: _DefaultsValue(
     link: 'https://www.rfc-editor.org/rfc/rfc7231#section-6.5.1',
