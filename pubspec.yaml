@@ -1,5 +1,5 @@
 name: problem_details
-description: Implementation of ProblemDetails object.
+description: Implementation of ProblemDetails. It is a way to carry machine-readable details of errors in a HTTP response.
 version: 0.0.1
 homepage: https://github.com/bytes7bytes7/problem_details
 repository: https://github.com/bytes7bytes7/problem_details
