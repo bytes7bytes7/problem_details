@@ -1,3 +1,9 @@
 ## 0.0.1
 
-- Initial version.
+- Add `ProblemDetails` class.
+- Add `ProblemDetails`, `ProblemDetails.raw` constructors.
+- Add `fromJson` and `toJson` methods in `ProblemDetails`.
+- Override `toString` in `ProblemDetails`.
+- Add defaults for `ProblemDetails`.
+- Add `addOrUpdateExtension`, `addOrUpdateExtensions`, `removeExtension` methods for
+  modifying `extensions` of `ProblemDetails`.
