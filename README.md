@@ -5,9 +5,16 @@
 
 Implementation of ProblemDetails object (for more info see https://www.rfc-editor.org/rfc/rfc7807)
 
+- [How to use](#how-to-use)
+  - [ProblemDetails](#problemdetails)
+  - [ProblemDetails.raw](#problemdetailsraw)
+  - [Additional fields](#additional-fields)
+  - [toJson](#tojson)
+  - [fromJson](#fromjson)
+
 ## How to use
 
-### ProblemDetails constructor
+### ProblemDetails
 
 You can use unnamed factory constructor `ProblemDetails` to create `ProblemDetails`:
 
@@ -50,7 +57,7 @@ void main() {
 }
 ```
 
-### ProblemDetails.raw constructor
+### ProblemDetails.raw
 
 Use `ProblemDetails.raw` if you want to set all values manually:
 

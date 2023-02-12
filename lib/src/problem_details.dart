@@ -1,5 +1,3 @@
-import 'dart:io';
-
 part 'problem_details_defaults.dart';
 
 const _statusKey = 'status';
@@ -43,7 +41,7 @@ class ProblemDetails {
     String? instance,
     Map<String, Object?>? extensions,
   }) {
-    status ??= HttpStatus.internalServerError;
+    status ??= 500;
 
     final defaults = _problemDetailsDefaults[status];
 

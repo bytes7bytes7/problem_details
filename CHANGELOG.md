@@ -1,3 +1,7 @@
+## 0.0.2
+
+- Remove `dart:io`
+
 ## 0.0.1
 
 - Add `ProblemDetails` class.

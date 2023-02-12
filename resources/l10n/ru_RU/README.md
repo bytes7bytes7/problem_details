@@ -6,9 +6,16 @@
 Реализация объекта ProblemDetails (для большей информации
 см. https://www.rfc-editor.org/rfc/rfc7807)
 
+- [Как использовать](#как-использовать)
+    - [ProblemDetails](#problemdetails)
+    - [ProblemDetails.raw](#problemdetailsraw)
+    - [Дополнительные поля](#дополнительные-поля)
+    - [toJson](#tojson)
+    - [fromJson](#fromjson)
+
 ## Как использовать
 
-### Конструктор ProblemDetails
+### ProblemDetails
 
 Для создания `ProblemDetails` можно использовать фабричный безымянный конструктор:
 
@@ -51,7 +58,7 @@ void main() {
 }
 ```
 
-### Конструктор ProblemDetails.raw
+### ProblemDetails.raw
 
 Если вы хотите задать все поля вручную, воспользуйтесь `ProblemDetails.raw`:
 
